@@ -1,0 +1,3 @@
+// Here goes the comments of the javascript file
+/* Here goes multi line comments 
+of the java script file */
