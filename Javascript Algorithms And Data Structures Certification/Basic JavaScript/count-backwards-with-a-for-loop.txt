@@ -1,0 +1,8 @@
+// Setup
+var myArray = [];
+
+// Only change code below this line
+
+for(var loop = 9; loop>=1;loop-=2){
+  myArray.push(loop);
+}

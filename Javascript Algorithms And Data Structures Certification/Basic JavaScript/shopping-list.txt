@@ -1,0 +1,6 @@
+var myList = [];
+myList.push(["chocolate bar",15])
+myList.push(["tomota",30])
+myList.push(["Macho bar",105])
+myList.push(["tTbar",37])
+myList.unshift(["potato",45])

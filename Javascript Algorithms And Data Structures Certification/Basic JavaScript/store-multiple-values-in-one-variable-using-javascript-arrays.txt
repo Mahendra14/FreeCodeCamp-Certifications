@@ -1,0 +1,3 @@
+// Only change code below this line
+let number = 14
+var myArray = ["Mahendra" , number];
