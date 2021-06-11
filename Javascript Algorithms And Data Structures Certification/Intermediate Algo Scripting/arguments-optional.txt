@@ -1,0 +1,9 @@
+function addTogether(...arr) {
+return arr.some((num) => typeof num !== "number") 
+      ? undefined 
+      : arr.length > 1
+      ?arr.reduce((a,b) => a+b,0)
+      :n => (typeof n === "number") ? n+arr[0] :undefined;
+}
+
+addTogether(2,3);

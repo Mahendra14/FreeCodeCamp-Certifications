@@ -1,0 +1,19 @@
+function rot13(str) {
+  let ret = str.split("").map((x) => {
+    if(/[a-z]/i.test(x)){
+      let inputAscii = x.charCodeAt(0);
+      let outputAscii;
+      if(inputAscii - 13 <65){
+        outputAscii = 91 -(65 -(inputAscii - 13));
+      }else{
+        outputAscii = inputAscii - 13;
+      }
+return String.fromCharCode(outputAscii)
+    }
+    return x;
+  });
+
+  return ret.join("");
+}
+
+rot13("SERR PBQR PNZC");
