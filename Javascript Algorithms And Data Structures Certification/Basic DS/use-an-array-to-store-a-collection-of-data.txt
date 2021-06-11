@@ -1,0 +1,2 @@
+let yourArray; // Change this 
+yourArray = [true,"mahendra",14,false,"kumar"]

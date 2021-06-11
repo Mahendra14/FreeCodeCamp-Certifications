@@ -1,0 +1,9 @@
+function popShift(arr) {
+  let popped; // Change this line
+  let shifted; // Change this line
+  popped = arr.pop();
+  shifted = arr.shift();
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
