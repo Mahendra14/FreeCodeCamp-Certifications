@@ -1,0 +1,5 @@
+
+
+(function(){
+  console.log("A cozt nest is ready");
+})();
